@@ -248,7 +248,7 @@ export const DATA = {
       href: "https://www.devry.edu/",
       degree: "Bachelor's Degree in Software Development (BSD), Associates of Information Technology & Networking, Programming Essentials Certificate",
       logoUrl: "/devry.webp",
-      start: "2022",
+      start: "2021",
       end: "2024",
     },
 
