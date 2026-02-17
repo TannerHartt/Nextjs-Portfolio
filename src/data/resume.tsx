@@ -39,6 +39,7 @@ import { WebComponentsAPI } from "@/components/ui/svgs/webcomponentsapi";
 import { Adobe } from "@/components/ui/svgs/adobe";
 import { ThreeJS } from "@/components/ui/svgs/threejs";
 import { Express } from "@/components/ui/svgs/expressjs";
+import { Semrush } from "@/components/ui/svgs/semrush";
 
 export const DATA = {
   name: "Tanner Hart",
@@ -49,11 +50,14 @@ export const DATA = {
   description:
     "Software Developer for AMain Sports & Hobbies. I have a passion for building and scaling SaaS products, and I'm always looking for new \
     opportunities to learn and grow as a developer.",
-  summary:
-    "At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, \
-    [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley]\(https://www.youtube.com/watch?v=d-LJ2e5qKdE), \
-    and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort \
-    of buildspace called \[buildspace sf1](https://buildspace.so/sf1).",
+  summary: 
+    "I am a self-taught software developer with a passion for working on a wide variety of projects. I have experience working \
+    with a wide variety of technologies, and I am always looking for new opportunities to learn and grow as a developer. I have a strong \
+    background in web development, digital marketing, and developing software and I am particularly interested in building scalable and \
+    efficient applications. I am also interested in AI and automation as well. I build automation tools in [n8n](https://n8n.io/) for \
+    various business applications. I am currently working as a Software Developer for [AMain Sports & Hobbies](https://amainhobbies.com), where I work on a custom \
+    ecommerce software stack for our brands. I have also worked as a Web Developer for [Method Marketing](https://methodmarketing.com), a small digital marketing agency \
+    in Chico, where I built and maintained 30+ websites for clients from a wide variety of different domains, some of which I still independently maintain. ",
   avatarUrl: "/me.png",
   skills: [
     { name: "React", icon: ReactLight },
@@ -95,6 +99,7 @@ export const DATA = {
     { name: "Adobe", icon: Adobe },
     { name: "ThreeJS", icon: ThreeJS },
     { name: "ExpressJS", icon: Express },
+    { name: "Semrush", icon: Semrush },
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -252,26 +257,28 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Chat Collect",
-      href: "https://chatcollect.com",
-      dates: "Jan 2024 - Feb 2024",
+      title: "Clipshare",
+      href: "https://clips-app-tan.vercel.app/",
+      dates: "",
       active: true,
       description:
-        "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
+        "This is a web application which allows users to share and view clips of their favorite video clips. Users can \
+        create accounts, browse, and upload video clips, and view clips that have been shared by other users. The application \
+        is lightweight and fast, and it provides a simple and intuitive interface for sharing and viewing video clips.",
       technologies: [
-        "Next.js",
+        "Angular",
         "Typescript",
-        "PostgreSQL",
-        "Prisma",
+        "Firebase",
+        "Video.js",
         "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
+        "RxJS",
+        "Material UI",
+        "Vercel",
       ],
       links: [
         {
           type: "Website",
-          href: "https://chatcollect.com",
+          href: "https://clips-app-tan.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
       ],
@@ -280,31 +287,32 @@ export const DATA = {
         "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
     },
     {
-      title: "Magic UI",
-      href: "https://magicui.design",
-      dates: "June 2023 - Present",
+      title: "MoviesDB",
+      href: "https://moviesdb-alpha.vercel.app/",
+      dates: "",
       active: true,
       description:
-        "Designed, developed and sold animated UI components for developers.",
+        "I built a lightweight Movie Database Application. It is built using [The Movie DB](https://www.themoviedb.org/). The Movie DB \
+        provides a free API for accessing movie data, and I used it to build a simple and intuitive interface for browsing and searching \
+        for movies & TV shows. The application is built using Angular and TailwindCSS, and it is deployed on Vercel.",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
+        "Angular",
         "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
+        "Firebase",
+        "Prime NG",
+        "TMDB API",
+        "Material UI",
+        "Vercel"
       ],
       links: [
         {
           type: "Website",
-          href: "https://magicui.design",
+          href: "https://moviesdb-alpha.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/magicuidesign/magicui",
+          href: "https://github.com/TannerHartt/MoviesApp",
           icon: <Icons.github className="size-3" />,
         },
       ],
