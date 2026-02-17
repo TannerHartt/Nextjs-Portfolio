@@ -55,9 +55,9 @@ export const DATA = {
     with a wide variety of technologies, and I am always looking for new opportunities to learn and grow as a developer. I have a strong \
     background in web development, digital marketing, and developing software and I am particularly interested in building scalable and \
     efficient applications. I am also interested in AI and automation as well. I build automation tools in [n8n](https://n8n.io/) for \
-    various business applications. I am currently working as a Software Developer for [AMain Sports & Hobbies](https://amainhobbies.com), where I work on a custom \
-    ecommerce software stack for our brands. I have also worked as a Web Developer for [Method Marketing](https://methodmarketing.com), a small digital marketing agency \
-    in Chico, where I built and maintained 30+ websites for clients from a wide variety of different domains, some of which I still independently maintain. ",
+    various business applications. I am currently working as a Software Developer for [AMain Sports & Hobbies](https://amainhobbies.com), where I work \
+    on a custom commerce software stack for our brands. I have built and maintained 30+ websites for clients from a wide variety of different domains, \
+    some of which I still independently maintain. ",
   avatarUrl: "/me.png",
   skills: [
     { name: "React", icon: ReactLight },
@@ -118,21 +118,21 @@ export const DATA = {
 
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://dub.sh/dillion-linkedin",
+        url: "",
         icon: Icons.linkedin,
 
         navbar: true,
       },
       X: {
         name: "X",
-        url: "https://dub.sh/dillion-twitter",
+        url: "",
         icon: Icons.x,
 
         navbar: true,
       },
       Youtube: {
         name: "Youtube",
-        url: "https://dub.sh/dillion-youtube",
+        url: "",
         icon: Icons.youtube,
         navbar: true,
       },
@@ -140,7 +140,6 @@ export const DATA = {
         name: "Send Email",
         url: "#",
         icon: Icons.email,
-
         navbar: false,
       },
     },
@@ -153,14 +152,14 @@ export const DATA = {
       badges: [],
       location: "On Site - Chico, CA",
       title: "Software Developer",
-      logoUrl: "/atomic.png",
+      logoUrl: "/amain.webp",
       start: "September 2025",
       end: "Present",
       description:
         "I work as a part of a Software Development team that built and maintain a custom Ecommerce Software Stack for AMain Sports & Hobbies, \
         and its subsidiary brands - Performance Bike, HobbyTown, & more. I have been involved in adding new features, integration testing, \
-       and general maintenance of the software stack to ensure a smooth shopping experience for our customers. We provide completely custom solutions \
-       for our brands, and I have had the opportunity to work on a wide variety of projects with our team. \ ",
+        and general maintenance of the software stack to ensure a smooth shopping experience for our customers. We provide completely custom solutions \
+        for our brands, and I have had the opportunity to work on a wide variety of projects with our team. \ ",
     },
     {
       company: "TC Painting",
@@ -168,7 +167,7 @@ export const DATA = {
       href: "https://tcpaintingchicoca.com",
       location: "On Site - Chico, CA",
       title: "Residential Painter",
-      logoUrl: "/shopify.svg",
+      logoUrl: "/tcpainting.webp",
       start: "December 2024",
       end: "Present",
       description:
@@ -182,7 +181,7 @@ export const DATA = {
       href: "https://methodmarketing.com",
       location: "On Site - Chico, CA",
       title: "Web Developer",
-      logoUrl: "/shopify.svg",
+      logoUrl: "/mm.webp",
       start: "August 2023",
       end: "September 2025",
       description:
@@ -197,8 +196,8 @@ export const DATA = {
       href: "",
       badges: [],
       location: "Remote",
-      title: "Software Developer",
-      logoUrl: "/nvidia.png",
+      title: "Junior Software Developer",
+      logoUrl: "/cognizant.webp",
       start: "January 2022",
       end: "June 2023",
       description:
@@ -206,20 +205,20 @@ export const DATA = {
         working as a developer trainee and worked on custom software for their internal infrastructure. I learned a lot about systems programming and \
         it helped prepare me for my future roles as a software developer. "
     },
-    {
-      company: "Mason George Motercycles",
-      href: "",
-      badges: [],
-      location: "On Site - Felton, CA",
-      title: "Sales Associate & Assistant",
-      logoUrl: "/nvidia.png",
-      start: "February 2021",
-      end: "January 2022",
-      description:
-        "I had just moved to California and as I was beginning to teach myself how to code, I decided to begin working at a family friend's motorcycle \
-        shop to help make some money while I was learning. I worked as a sales associate and assistant to the mechanics, where I helped \
-        customers into the shop for services and more."
-    },
+    // {
+    //   company: "Mason George Motercycles",
+    //   href: "",
+    //   badges: [],
+    //   location: "On Site - Felton, CA",
+    //   title: "Sales Associate & Assistant",
+    //   logoUrl: "/nvidia.png",
+    //   start: "February 2021",
+    //   end: "January 2022",
+    //   description:
+    //     "I had just moved to California and as I was beginning to teach myself how to code, I decided to begin working at a family friend's motorcycle \
+    //     shop to help make some money while I was learning. I worked as a sales associate and assistant to the mechanics, where I helped \
+    //     customers into the shop for services and more."
+    // },
     {
       company: "Best Buy",
       href: "",
@@ -234,7 +233,6 @@ export const DATA = {
         accessories, and software solutions for their needs. Provided guidance on technology decisions, answered technical questions, \
         and offered troubleshooting support to ensure customers felt confident using their products."
     },
-
   ],
   education: [
     {
