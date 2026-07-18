@@ -7,7 +7,7 @@ const AMain = (props: SVGProps<SVGSVGElement>) => (
     width="1em"
     height="1em"
     fill="#ffffff"
-    stroke-width="1"
+    strokeWidth="1"
   >
     
   </svg>
